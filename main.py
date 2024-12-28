@@ -12,6 +12,9 @@ def index():
 @app.route('/login')
 def about():
     return render_template('login.html')
+@app.route('/reg')
+def about():
+    return  render_template('register.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
